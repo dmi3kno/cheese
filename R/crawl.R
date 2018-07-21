@@ -5,6 +5,7 @@
 #' @return
 #'
 #' @examples
+#' crawl_cheese_com()
 crawl_cheese_com <- function(path="www.cheese.com"){
   TRUE
 }
