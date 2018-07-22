@@ -3,8 +3,18 @@ Version: 0.0.0.9000
 Title: Explore the world of cheese
 Description: Dataset and analysis tools for cheese dataset from www.cheese.com.
 Authors@R: person("Dmytro", "Perepolkin", , "dperepolkin@gmail.com", c("aut", "cre"))
-License: MIT + file
-Encoding: UTF-8
-LazyData: true
 ByteCompile: true
+Depends:
+    R (>= 3.2.3)
+License: MIT + file LICENSE
+LazyData: true
+Suggests: 
+    dplyr,
+    knitr
+Imports: 
+    tibble
 RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+URL: https://github.com/dmi3kno/cheese,
+BugReports: https://github.com/dmi3kno/cheese/issues
+Encoding: UTF-8
