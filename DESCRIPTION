@@ -13,7 +13,7 @@ Suggests:
     knitr
 Imports: 
     tibble
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 URL: https://github.com/dmi3kno/cheese,
 BugReports: https://github.com/dmi3kno/cheese/issues

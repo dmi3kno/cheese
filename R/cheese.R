@@ -28,6 +28,36 @@
 #' }
 "cheese"
 
+#'
+#' Cheese price: Average monthly CME cheese block and barrel prices from www.cheesereporter.com for 2001-2019
+#'
+#' @source Cheesereporter.com 2019, CME Cheese Block & Barrel Prices
+#'  <https:://www.cheesereporter.com>
+#' @format Data frame with columns
+#' \describe{
+#' \item{category}{Either Cheddar Block (40lb) or Cheddar Barrel (500lb).}
+#' \item{date}{Date for the month (BoM) for which data was collected.}
+#' \item{price}{Price in US Dollars.}
+#' }
+"cheese_price"
+
+#'
+#' Cheese price details: CME cheese block and barrel trading details from www.cheesereporter.com for 2011-2018
+#'
+#' @source Cheesereporter.com 2019, CME Cheese Block & Barrel Trading Details
+#'  <https:://www.cheesereporter.com>
+#' @format Tibble with columns
+#' \describe{
+#' \item{category}{Either Cheddar Block (40lb) or Cheddar Barrel (500lb).}
+#' \item{year, month, day}{Date when the trading event happened.}
+#' \item{price}{Price in US Dollars.}
+#' \item{volume}{Number of trades happening on that day.}
+#' \item{deals}{List-column storing number of trades, price and bid/offer flag for transaction.}
+#' \item{bids}{List-column storing number of unfilled bids, price and bid/offer flag.}
+#' \item{offers}{List-column storing number of unfilled offers, price and bid/offer flag.}
+#' }
+"cheese_price_details"
+
 
 #' @importFrom tibble tibble
 NULL
